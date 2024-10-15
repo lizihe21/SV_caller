@@ -2,11 +2,11 @@
 A python tool for identify lineage specific structure variation from multiple genome aligmnent
 ##Usage
 first we extract maf into list format like this 
-...
+```
 ref_chrom  ref_position sp1 sp2 sp3 sp4  ref2_pos
 chr1  1  A  A  A  A  ref2_pos
 chr1  2  T  T  A  T  ref2_pos
-...
+```
 ```
 python 01.changemaf2list.py --maffile align.maf --speciesfile speciesfile --outfile out --sp1addlc ref2
 ```
