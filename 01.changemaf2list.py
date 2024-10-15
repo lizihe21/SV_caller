@@ -4,7 +4,7 @@ import sys
 @click.option('--maffile', default="caiji", help='mfa file')
 @click.option('--speciesfile', default="caiji", help='species file')
 @click.option('--outfile', default="caiji", help='out list file')
-@click.option('--sp1addlc', default="caiji", help='othersp list file')
+@click.option('--sp1addlc', default="caiji", help='alternaltive ref in outgroup for identify deletion in target lineage')
 def argin(maffile, speciesfile, outfile,sp1addlc):
 	"""python $0 --maffile maf --speciesfile speciesfile --outfile out."""
 	partopen(maffile, speciesfile, outfile,sp1addlc)
