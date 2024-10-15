@@ -1,6 +1,6 @@
 # SV_caller
 A python tool for identify lineage specific structure variation from multiple genome aligmnent
-##Usage
+## Usage
 first we extract maf into list format like this 
 ```
 ref_chrom  ref_position sp1 sp2 sp3 sp4  ref2_pos
